@@ -1,0 +1,18 @@
+.selector-con{
+  font-size: 13px;
+}
+.selector-con {
+  a, a:hover {
+    text-decoration: none;
+  }
+
+  &.none {
+    display: none;
+  }
+}
+.flex-select-search {
+
+  > .selector-con {
+    flex: 100;
+  }
+}

@@ -1,0 +1,27 @@
+
+@mixin apply_transition($transition-property, $transition-duration, $transition-timing) {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing;
+}
+
+@mixin boxsizing() {
+  box-sizing: border-box;
+}
+
+@mixin center_it() {
+  position: absolute;
+  top:50%; left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+$transition-property: visibility, opacity;
+$transition-duration: 0.3s;
+$transition-timing: ease-out;
+
+
+$color_bg: rgba(20, 20, 20, 0.9);
+$color_txt: #eeeeee;
+$color_highlight: #da4f74;

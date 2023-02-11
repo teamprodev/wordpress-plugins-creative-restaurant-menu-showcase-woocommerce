@@ -1,0 +1,1 @@
+export const TOOLTIP_MARGIN_OFFSET = 10;

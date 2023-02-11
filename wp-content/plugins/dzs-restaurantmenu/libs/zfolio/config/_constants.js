@@ -1,0 +1,1 @@
+export const VIEW_ISOTOPE_ITEM_CLASS = 'isotope-item';
